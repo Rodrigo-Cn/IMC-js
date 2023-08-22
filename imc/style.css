@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+    position: relative;
+    align-content: center;
+    background-color: rgb(65, 65, 160);
+    height: 630px;
+    width: 40%;
+    border-radius: 10px;
+    left: 50%;
+    margin-top: 24%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+.main-content1{
+    width: 50%;
+    color: white;
+    padding: 30px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.main-content2{
+    width: 50%;
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+}
+.form-div{
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 300px
+}
+#entrada1
+{
+    position: relative;
+    width: 70%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#entrada2
+{
+    position: relative;
+    width: 70%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#entrada3
+{
+    position: relative;
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+}
+#entrada3:hover
+{
+    position: relative;
+    width: 30%;
+    height: 30px;
+    color: white;
+    background-color:black;
+    transition: 0.5s;
+}
+#entrando{
+    position: absolute;
+    color: white;
+    margin-left: 37%;
+    margin-top: 480px;
+    font-size: 30px;
+}
+
